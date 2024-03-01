@@ -6,9 +6,9 @@ const Home: React.FC = () => {
   return (
     <Container>
       <Header />
-      <Main />
+      {/* <Main />
       <Cards />
-      <Footer />
+      <Footer /> */}
     </Container>
   );
 };
