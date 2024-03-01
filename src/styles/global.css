@@ -6,3 +6,63 @@ body {
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+.font-halimun {
+  font-family: Halimun;
+  font-weight: bold;
+}
+.font-din-pro {
+  font-family: DINPro-Regular;
+}
+.font-hnd-reg {
+  font-family: HelveticaNowDisplay-Regular;
+}
+.font-hnd-med {
+  font-family: HelveticaNowDisplay-Medium;
+}
+.font-hnd-bold {
+  font-family: HelveticaNowDisplay-Bold;
+}
+.font-hnd-black {
+  font-family: HelveticaNowDisplay-Black;
+}
+.pointer {
+  cursor: pointer;
+}
+
+@font-face {
+	font-family: Ananda-Regular;
+	src: url("/assets/fonts/Ananda-Regular.ttf") format("truetype");
+}
+@font-face {
+	font-family: Halimun;
+	src: url("/assets/fonts/Halimun.ttf") format("truetype");
+}
+@font-face {
+	font-family: DINPro-Regular;
+	src: url("/assets/fonts/DINPro-Regular.ttf") format("truetype");
+}
+@font-face {
+	font-family: AktivGroteskEx-Rg;
+	src: url("/assets/fonts/AktivGroteskEx-Rg.ttf") format("truetype");
+}
+@font-face {
+	font-family: HelveticaNowDisplay-Black;
+	src: url("/assets/fonts/HelveticaNowDisplay-Black.ttf") format("truetype");
+}
+@font-face {
+	font-family: HelveticaNowDisplay-Bold;
+	src: url("/assets/fonts/HelveticaNowDisplay-Bold.ttf") format("truetype");
+}
+@font-face {
+	font-family: HelveticaNowDisplay-Medium;
+	src: url("/assets/fonts/HelveticaNowDisplay-Medium.ttf") format("truetype");
+}
+@font-face {
+	font-family: HelveticaNowDisplay-Regular;
+	src: url("/assets/fonts/HelveticaNowDisplay-Regular.ttf") format("truetype");
+}
+@font-face {
+	font-family: HelveticaNowDisplay-ExtraBold;
+	src: url("/assets/fonts/HelveticaNowDisplay-ExtraBold.ttf") format("truetype");
+}
