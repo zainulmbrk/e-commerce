@@ -1,33 +1,52 @@
 html,
 body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	margin: 0;
+	padding: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+		"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .font-halimun {
-  font-family: Halimun;
-  font-weight: bold;
+	font-family: Halimun;
+	font-weight: bold;
 }
 .font-din-pro {
-  font-family: DINPro-Regular;
+	font-family: DINPro-Regular;
 }
 .font-hnd-reg {
-  font-family: HelveticaNowDisplay-Regular;
+	font-family: HelveticaNowDisplay-Regular;
 }
 .font-hnd-med {
-  font-family: HelveticaNowDisplay-Medium;
+	font-family: HelveticaNowDisplay-Medium;
 }
 .font-hnd-bold {
-  font-family: HelveticaNowDisplay-Bold;
+	font-family: HelveticaNowDisplay-Bold;
 }
 .font-hnd-black {
-  font-family: HelveticaNowDisplay-Black;
+	font-family: HelveticaNowDisplay-Black;
 }
 .pointer {
-  cursor: pointer;
+	cursor: pointer;
+}
+
+.swiper-pagination-bullet {
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	font-size: 12px;
+	color: #000;
+	opacity: 1;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.swiper-pagination-bullet-active {
+	color: #fff;
+	background: #0b1215 !important;
+}
+
+:where(.css-dev-only-do-not-override-1k979oh).ant-btn-primary {
+	background-color: #0b1215;
 }
 
 @font-face {
