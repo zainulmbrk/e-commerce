@@ -4,7 +4,7 @@ import { categoryOptions } from "src/utils/options";
 
 export const Categories: React.FC = () => {
 	return (
-		<Flex gap={30} wrap="wrap" justify="center" className="font-din-pro font-bold">
+		<Flex gap={30} wrap="wrap" justify="center" className="font-din-pro font-bold px-24">
 			<EachItems
 				data={categoryOptions}
 				render={(item: any, index: any) => (

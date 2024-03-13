@@ -21,7 +21,7 @@ export const Header: React.FC = () => {
 	}
 
 	return (
-		<div className="px-12">
+		<div className="">
 			<Flex justify="space-between" align="center" className="h-24">
 				<Logo />
 				<Login />
