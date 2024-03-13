@@ -7,7 +7,7 @@ import React, { useState } from "react";
 const { Text, Link } = Typography;
 
 const Login = () => {
-	const [isLoading, setIsLoading] = useState(true);
+	const [isLoading, setIsLoading] = useState(false);
 	const [showModal, setShowModal] = useState(false);
 
     const [form_input] = Form.useForm()
@@ -48,8 +48,8 @@ const Login = () => {
 				<Divider />
 
 				<GoogleSigninButton />
-				<Divider plain>or</Divider>
 				<FormLoginLayout>
+				<Divider plain>or</Divider>
 					<Form layout="vertical" form={form_input} onFinish={handleLogin}>
 						<Form.Item name="email" label={<div className="font-din-pro">Email</div>}>
 							<Input className="w-full h-10" />
@@ -65,7 +65,7 @@ const Login = () => {
 								I want to stay logged in
 							</Checkbox>
 						</Space>
-						<Button className="w-full h-10 bg-gray-900 mt-6 text-white font-din-pro" htmlType="submit">Submit</Button>
+						<Button className="w-full h-10 bg-primary mt-6 text-white font-din-pro" htmlType="submit">Submit</Button>
 						<div className="w-full text-center font-din-pro mt-3">
 							By creating or registering an account, you agree to the contents of our <Link>Terms and Conditions</Link> &<br/> <Link>Privacy Policy</Link>.
 						</div>

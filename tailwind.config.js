@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      backgroundColor: {
+        primary: "#0b1215"
+      }
     },
   },
   variants: {
