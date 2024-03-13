@@ -1,0 +1,18 @@
+import { EachItems } from "@components/custom";
+import { Flex } from "antd";
+import { categoryOptions } from "src/utils/options";
+
+export const Categories: React.FC = () => {
+	return (
+		<Flex gap={30} wrap="wrap" justify="center" className="font-din-pro font-bold">
+			<EachItems
+				data={categoryOptions}
+				render={(item: any, index: any) => (
+					<div key={index}>
+						<div className="cursor-pointer">{item.text}</div>
+					</div>
+				)}
+			/>
+		</Flex>
+	);
+};
