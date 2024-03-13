@@ -1,11 +1,13 @@
-import { Button, Flex, Typography } from "antd";
-// import { signIn } from "next-auth/react";
+import { Button, Flex } from "antd";
+import { signIn } from "next-auth/react";
 import React from "react";
 
 export const GoogleSigninButton = () => {
+
+	console.log(process.env.GOOGLE_CLIENT_ID)
+
 	function handleLoginWithGoogle() {
-		// signIn("google", { callbackUrl: "/" });
-        console.log("Login google here")
+		signIn("google", { callbackUrl: "/" });
 	}
 
 	return (
