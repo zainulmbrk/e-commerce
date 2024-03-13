@@ -71,7 +71,7 @@ const Login = () => {
 							<Input.Password className="w-full h-10" />
 						</Form.Item>
 						<Space direction="vertical" size={20}>
-							<Text underline className="font-din-pro">
+							<Text underline className="font-din-pro cursor-pointer">
 								Forgot password?
 							</Text>
 							<Checkbox onChange={rememberMe} className="font-din-pro">
