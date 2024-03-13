@@ -56,7 +56,7 @@ const Login = () => {
 
 	return (
 		<>
-			{renderLoginConditions()}
+			<div className="cursor-pointer">{renderLoginConditions()}</div>
 			<Modal title="" width={"40%"} confirmLoading={isLoading} open={showModal} footer={false} onCancel={() => setShowModal(false)}>
 				<Typography className="font-hnd-reg text-center text-2xl mt-10">Login to your account</Typography>
 				<Divider />
